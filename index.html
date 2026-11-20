@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quick Explain – Privacy Policy</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5b5f6b; --accent: #1a73e8; --line: #e4e4e8; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #18181b; --fg: #ececf0; --muted: #a0a0a8; --accent: #8ab4f8; --line: #3a3a40; } }
+    body { background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, "Segoe UI", sans-serif; margin: 0; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+    h1 { font-size: 30px; margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    .date { color: var(--muted); margin: 0 0 24px; }
+    a { color: var(--accent); }
+    ul { padding-left: 22px; }
+    table { border-collapse: collapse; width: 100%; font-size: 15px; }
+    th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 8px 6px; vertical-align: top; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Quick Explain – Privacy Policy</h1>
+  <p class="date">Effective date: November 20, 2026</p>
+
+  <p>Quick Explain is a Chrome extension that shows a short explanation of text you highlight on a web page. This policy explains what data the extension handles and where it goes.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>We (the developer) do not collect, store, sell, or share any of your data. The extension has no server of its own, no analytics, and no tracking.</li>
+    <li>When you highlight text, that text is sent to Wikipedia (and to Google Gemini only if you add your own Gemini API key) so an explanation can be shown to you.</li>
+    <li>Your settings stay in your own browser.</li>
+  </ul>
+
+  <h2>What is sent, and to whom</h2>
+  <p>Data is sent only when you highlight text on a page (or, if you chose the Alt-key option, highlight text while holding Alt).</p>
+  <table>
+    <tr><th>Data</th><th>Sent to</th><th>Why</th></tr>
+    <tr><td>The text you highlighted</td><td>Wikipedia (Wikimedia Foundation)</td><td>To find and show the matching article summary.</td></tr>
+    <tr><td>The text you highlighted, plus up to about 800 characters of the text around it on the page</td><td>Google Gemini API, <em>only if you entered your own Gemini API key</em></td><td>To generate an explanation. The surrounding text helps pick the right meaning (for example, a movie vs. a book with the same name).</td></tr>
+  </table>
+  <p>Nothing else from the page is sent: no page address, no browsing history, and no account or personal information. These requests go straight from your browser to those services; the developer never receives them.</p>
+  <p>Those services handle the data under their own policies:
+    <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" target="_blank" rel="noopener">Wikimedia Privacy Policy</a> and
+    <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API Additional Terms</a> /
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+
+  <h2>What is stored on your device</h2>
+  <ul>
+    <li><strong>Settings</strong> (answer source, optional Gemini API key, model name, trigger mode, on/off) are saved with Chrome's local extension storage on your computer. They are not synced or sent to the developer.</li>
+    <li><strong>Recent answers</strong> are kept in memory only, so repeated lookups are faster. They are cleared when the browser closes the extension's background process.</li>
+  </ul>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not sell or transfer your data to third parties, except to Wikipedia and Google Gemini as described above, solely to provide the extension's feature.</li>
+    <li>We do not use your data for advertising, profiling, or creditworthiness or lending purposes.</li>
+    <li>We do not load or run code from remote servers.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Turn the extension off, or switch to the Alt-key trigger, in its settings.</li>
+    <li>Remove your Gemini API key at any time, and only Wikipedia is used.</li>
+    <li>Uninstalling the extension deletes all of its stored settings.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The extension is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted at this address with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:usamamunir2013@gmail.com">usamamunir2013@gmail.com</a></p>
+</main>
+</body>
+</html>
